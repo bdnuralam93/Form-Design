@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+.form{
+	white-space: 100%;
+	background: linear-gradient(#E7ED9B, #8BDB81);
+}
+.container{
+	width: 800px;
+	margin: auto;
+
+}
+.form-row{
+	display: flex;
+	padding: 60px 0px;
+}
+.form-left, .form-right{
+	flex-basis: 50%;
+}
+.form-left{
+	background-color: black;
+	color: white;
+	padding: 100px 40px;
+}
+.form-left h1{
+	font-weight: 350px;
+	margin-bottom: 20px;
+}
+.form-left h3{
+	margin-bottom: 20px;
+	line-height: 1.5;
+	font-size: 16px;
+	font-weight: 400px;
+}
+.form-left p{
+	margin-bottom: 20px;
+	line-height: 1.9;
+	font-size: 14px;
+}
+.link ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.link ul li a{
+	margin:0 10px;
+	color: white;
+}
+.form-right{
+	background-color: white;
+	padding: 50px 40px;
+
+
+}
+.form-right h2{
+	font-weight: 300px;
+	margin-bottom: 15px;
+	font-size: 35px;
+	color: #01cd74;
+}
+.form-right p{
+	margin-bottom: 20px;
+	line-height: 1.7;
+	font-size: 12px;
+}
+.style {
+	padding: 10px 6px;
+	width: 100%;
+	margin: 10px 0px;
+}
+.check{
+	margin: 10px 0px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+
+
+.f-name{
+	position: relative;
+}
+ .style i{
+	position: absolute;
+	padding-top: 20px;
+	color: #01cd74;
+	margin-left: 10px;
+	
+}
+.style:focus {
+	outline-color: red;
+	outline: none;
+}
+.style::placeholder{
+	padding-left: 20px;
+	
+
+}
+
+.button input{
+	width: 100%;
+	background-color:#01cd74 ;
+	border: none;
+	color: white;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+
+
